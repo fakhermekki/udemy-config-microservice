@@ -15,10 +15,10 @@ management:
 zuul:
   routes:
     user-service:
-     path: localhost:6666/user-service/**
+     path: /user-service/**
      service-id: user-service
     task-service:
-     path: localhost:6666/task-service/**
+     path: /task-service/**
      service-id: task-service
      
 #eureka 
